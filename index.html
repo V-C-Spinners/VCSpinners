@@ -1,103 +1,106 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
-<style>
-	body {
-  background: url("mybackgroundimage.gif") repeat;
-}
-#banner {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  width: 100%;
-  height: 200px;
-  z-index: -1;
-}
-    p {
-    color: red;
-    }
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
-}
-
-.dropdown {
-    float: left;
-    position: relative;
-    display: inline-block;
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+             
     
-}
+        <meta charset="utf-8"/>
+<title>Home | VC Spinners</title>
+<meta name="fb_admins_meta_tag" content=""/>
+<link rel="shortcut icon" href="https://www.wix.com/favicon.ico" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="https://www.wix.com/favicon.ico" type="image/x-icon"/>
+    <script type="text/javascript">
+    var santaBase = 'https://static.parastorage.com/services/santa/1.2240.4';
+        var clientSideRender = true;
+        </script>
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    left: 0;
-    z-index: 1;
-}
+<script defer src="https://static.parastorage.com/services/third-party/requirejs/2.1.15/require.min.js"></script>
+<script defer src="https://static.parastorage.com/services/santa/1.2240.4/app/main-r.min.js"></script>
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
 
-.dropdown a:hover {background-color: #f1f1f1}
+<link rel="prefetch" href="https://static.parastorage.com/services/third-party/react/0.14.3/react-with-addons.min.js">
+<link rel="prefetch" href="https://static.parastorage.com/services/third-party/tweenmax/1.19.0/minified/TweenMax.min.js">
+<link rel="prefetch" href="https://static.parastorage.com/services/third-party/lodash/4.17.4/dist/lodash.min.js">
 
-.show {display:block;}
-</style>
-</head>
-<body> 
-<div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="https://goo.gl/forms/fe4aoXbkvZJSkcgT2">Order</a>
-    <a href="#bearings">Bearings</a>
-    <a href="#contact">Contact</a>
-  </div>
-</div>
+<link rel="preconnect" href="https://static.wixstatic.com/">
+<link rel="preconnect" href="//fonts.googleapis.com">
+    <meta http-equiv="X-Wix-Renderer-Server" content="app-jvm12a.42.wixprod.net"/>
+<meta http-equiv="X-Wix-Meta-Site-Id" content="46d326a3-bb8c-49ea-bc92-e8dffec7dc95"/>
+<meta http-equiv="X-Wix-Application-Instance-Id" content="22819b9d-3648-427a-bac9-8f37e4fa40e8"/>
+<meta http-equiv="X-Wix-Published-Version" content="23"/>
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+<meta http-equiv="etag" content="d45945dbab3429f6cf98ac112d2a5e32"/>
+<meta property="og:title" content="Home | VC Spinners"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://vcspinnersbiz.wixsite.com/vcspinners"/>
+<meta property="og:site_name" content="Home | VC Spinners"/>
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+<meta id="wixMobileViewport" name="viewport" content="width=980, user-scalable=yes"/>
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
+
+
+        
+
+    <script>
+    // BEAT MESSAGE
+    try {
+        window.wixBiSession = {
+            initialTimestamp : Date.now(),
+                        viewerSessionId: 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c)
+                    { var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8); return v.toString(16); }
+            )
+                    };
+        (new Image()).src = 'https://frog.wix.com/bt?src=29&evid=3&pn=1&et=1&v=1.2240.4&msid=46d326a3-bb8c-49ea-bc92-e8dffec7dc95&vsi=' + wixBiSession.viewerSessionId +
+                '&url=' + encodeURIComponent(location.href.replace(/^http(s)?:\/\/(www\.)?/, '')) +
+                '&isp=0&st=2&ts=0&c=' + wixBiSession.initialTimestamp;
+    } catch (e){}
+    // BEAT MESSAGE END
 </script>
-<h1><center>
-    <a href="https://cooltext.com"><img src="https://images.cooltext.com/4931907.png" width="646" height="87" alt="V&C SPINNER SHOP " /></a>
-        </center></h1>
-	<p>
-		
-	</p>
-	  <img id="banner" src="https://www.google.com/search?q=cool%20pictures&rlz=1CAHPZV_enUS720US720&tbm=isch&imgil=wjgbfldlv5AwsM%253A%253B70rRWFNDtWbZNM%253Bhttp%25253A%25252F%25252Fwww.planwallpaper.com%25252Fcool-pictures&source=iu&pf=m&fir=wjgbfldlv5AwsM%253A%252C70rRWFNDtWbZNM%252C_&usg=__abX0xVyZ0h_ud95ILJt29F79Yl4%3D&biw=1366&bih=631&ved=0ahUKEwierejT7b_TAhUsxYMKHWQRCd0QyjcIPA&ei=WmL_WJ6YAayKjwTkoqToDQ&safe=active&ssui=on#imgrc=wjgbfldlv5AwsM:"/>
-</body>
+
+    
+
+    <!-- META DATA -->
+<script type="text/javascript">
+
+    var serviceTopology = {"serverName":"app-jvm12a.42.wixprod.net","cacheKillerVersion":"1","staticServerUrl":"https://static.parastorage.com/","usersScriptsRoot":"https://static.parastorage.com/services/wix-users/2.660.0","biServerUrl":"https://frog.wix.com/","userServerUrl":"https://users.wix.com/","billingServerUrl":"https://premium.wix.com/","mediaRootUrl":"https://static.wixstatic.com/","logServerUrl":"https://frog.wix.com/plebs","monitoringServerUrl":"https://TODO/","usersClientApiUrl":"https://users.wix.com/wix-users","publicStaticBaseUri":"https://static.parastorage.com/services/wix-public/1.230.0","basePublicUrl":"https://www.wix.com/","postLoginUrl":"https://www.wix.com/my-account","postSignUpUrl":"https://www.wix.com/new/account","baseDomain":"wix.com","staticMediaUrl":"https://static.wixstatic.com/media","staticAudioUrl":"https://music.wixstatic.com/mp3","emailServer":"https://assets.wix.com/common-services/notification/invoke","blobUrl":"https://static.parastorage.com/wix_blob","htmlEditorUrl":"http://editor.wix.com/html","siteMembersUrl":"https://users.wix.com/wix-sm","scriptsLocationMap":{"santa-versions":"https://static.parastorage.com/services/santa-versions/1.419.0","dbsm-viewer-app":"https://static.parastorage.com/services/dbsm-viewer-app/1.72.0","wix-music-embed":"https://static.parastorage.com/services/wix-music-embed/1.22.0","santa-resources":"https://static.parastorage.com/services/santa-resources/1.2.0","wixapps":"https://static.parastorage.com/services/wixapps/2.486.0","ecommerce":"https://static.parastorage.com/services/ecommerce/1.203.0","dbsm-editor-app":"https://static.parastorage.com/services/dbsm-editor-app/1.216.0","langs":"https://static.parastorage.com/services/langs/2.568.0","automation":"https://static.parastorage.com/services/automation/1.23.0","web":"https://static.parastorage.com/services/web/2.1229.63","sitemembers":"https://static.parastorage.com/services/sm-js-sdk/1.31.0","js-wixcode-sdk":"https://static.parastorage.com/services/js-wixcode-sdk/1.116.0","tpa":"https://static.parastorage.com/services/tpa/2.1062.0","santa":"https://static.parastorage.com/services/santa/1.2224.11","skins":"https://static.parastorage.com/services/skins/2.1229.63","core":"https://static.parastorage.com/services/core/2.1229.63","ck-editor":"https://static.parastorage.com/services/ck-editor/1.87.3","bootstrap":"https://static.parastorage.com/services/bootstrap/2.1229.63"},"developerMode":false,"productionMode":true,"staticServerFallbackUrl":"https://sslstatic.wix.com/","staticVideoUrl":"https://video.wixstatic.com/","cloudStorageUrl":"https://static.wixstatic.com/","scriptsDomainUrl":"https://static.parastorage.com/","userFilesUrl":"https://static.parastorage.com/","staticHTMLComponentUrl":"https://vcspinnersbiz-wixsite-com.usrfiles.com/","secured":true,"ecommerceCheckoutUrl":"https://www.safer-checkout.com/","premiumServerUrl":"https://premium.wix.com/","appRepoUrl":"https://assets.wix.com/wix-lists-ds-webapp","digitalGoodsServerUrl":"https://dgs.wixapps.net/","wixCloudBaseDomain":"wix-code.com","mailServiceSuffix":"/_api/common-services/notification/invoke","staticVideoHeadRequestUrl":"https://storage.googleapis.com/video.wixstatic.com","protectedPageResolverUrl":"https://site-pages.wix.com/_api/wix-public-html-info-webapp/resolve_protected_page_urls","mediaUploadServerUrl":"https://files.wix.com/","publicStaticsUrl":"https://static.parastorage.com/services/wix-public/1.230.0","staticDocsUrl":"https://media.wix.com/ugd"};
+    var santaModels = true;
+    var rendererModel = {"metaSiteId":"46d326a3-bb8c-49ea-bc92-e8dffec7dc95","siteInfo":{"documentType":"UGC","applicationType":"HtmlWeb","siteId":"22819b9d-3648-427a-bac9-8f37e4fa40e8","siteTitleSEO":"Home | VC Spinners"},"clientSpecMap":{"5":{"type":"public","applicationId":5,"appDefinitionId":"1480c568-5cbd-9392-5604-1148f5faffa0","appDefinitionName":"Wix SEO Wiz","instance":"ST4X67KzA92r8qD-CCwZkI05FbkjNESIcQS8ydfjcnM.eyJpbnN0YW5jZUlkIjoiOWFhYTEwYmUtOGFiYi00MGUwLWEwOWYtM2Q5YjNhZDE3YzIwIiwic2lnbkRhdGUiOiIyMDE3LTA0LTI2VDE0OjI0OjA5LjQ3N1oiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6IjEwLjQyLjAuMjA5LzM2MDIzIiwidmVuZG9yUHJvZHVjdElkIjpudWxsLCJkZW1vTW9kZSI6ZmFsc2UsImFpZCI6ImUyMTMzYjVkLTI1NzktNGMwYS05N2NkLTA0ZDczNjM1YmZhNSIsImJpVG9rZW4iOiJkYzc5MzYxZC0zMTM3LTA5MGEtMWMwZC1kNTQ0YzQxNmEwYjUiLCJzaXRlT3duZXJJZCI6IjA4ZGNlZDFhLTA2MTMtNDkxYS04N2NhLTY4OTIzYzE1YzMxNiJ9","sectionPublished":true,"sectionMobilePublished":false,"sectionSeoEnabled":true,"widgets":{},"appRequirements":{"requireSiteMembers":false},"isWixTPA":true,"installedAtDashboard":true,"permissions":{"revoked":false}},"13":{"type":"sitemembers","applicationId":13,"collectionType":"Open","collectionFormFace":"Register","smcollectionId":"3aea2dc7-a14c-4775-b924-95e8a1af00df"},"2":{"type":"appbuilder","applicationId":2,"appDefinitionId":"3d590cbc-4907-4cc4-b0b1-ddf2c5edf297","instanceId":"20594cf9-b1a9-4f34-8ba4-9dd900590173","state":"Initialized"},"3":{"type":"onboarding","applicationId":3,"storyId":"d03f4bb6-7ecd-4af9-86a5-58e37d1eb414","inUse":true},"4":{"type":"public","applicationId":4,"appDefinitionId":"1380b703-ce81-ff05-f115-39571d94dfcd","appDefinitionName":"Wix Stores","instance":"wS-uZNErAkDRcVyn5tPF5eEFRAdd-_jiqxLhkE4yFPg.eyJpbnN0YW5jZUlkIjoiMGVhMDUxZDktNzc4OS00MjczLWFmYjYtNTFlYzk2NjAzNjQ1Iiwic2lnbkRhdGUiOiIyMDE3LTA0LTI2VDE0OjI0OjA5LjQ3N1oiLCJ1aWQiOm51bGwsImlwQW5kUG9ydCI6IjEwLjQyLjAuMjA5LzM2MDIzIiwidmVuZG9yUHJvZHVjdElkIjpudWxsLCJkZW1vTW9kZSI6ZmFsc2UsIm9yaWdpbkluc3RhbmNlSWQiOiI3ZjM5Y2QzZS1hZTE3LTRjMmEtYWRjYi00NWU4MDYyMjlmZTUiLCJhaWQiOiJmOGNiOWUzMi1kZmJjLTQyNzEtODgzNy0yOWZhNWNiMzdmMjYiLCJiaVRva2VuIjoiNDg3Mzc3N2EtY2MwNS0wYjk5LTEzMjQtYjkzMzY4YTdlYWQwIiwic2l0ZU93bmVySWQiOiIwOGRjZWQxYS0wNjEzLTQ5MWEtODdjYS02ODkyM2MxNWMzMTYifQ","sectionUrl":"https:\/\/ecom.wix.com\/storefront\/gallery","sectionMobileUrl":"https:\/\/ecom.wix.com\/storefront\/gallery","sectionPublished":true,"sectionMobilePublished":true,"sectionSeoEnabled":true,"sectionDefaultPage":"","sectionRefreshOnWidthChange":true,"widgets":{"13afb094-84f9-739f-44fd-78d036adb028":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/gallery","widgetId":"13afb094-84f9-739f-44fd-78d036adb028","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/gallery","published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false},"13ec3e79-e668-cc0c-2d48-e99d53a213dd":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/product-widget-view","widgetId":"13ec3e79-e668-cc0c-2d48-e99d53a213dd","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/product-widget-view","published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false},"1380bbb4-8df0-fd38-a235-88821cf3f8a4":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/success","widgetId":"1380bbb4-8df0-fd38-a235-88821cf3f8a4","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/success","appPage":{"id":"thank_you_page","name":"Thank You Page","defaultPage":"","hidden":true,"multiInstanceEnabled":false,"order":4,"indexable":false,"fullPage":false,"landingPageInMobile":false,"hideFromMenu":false},"published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false},"139a41fd-0b1d-975f-6f67-e8cbdf8ccc82":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/minigallery","widgetId":"139a41fd-0b1d-975f-6f67-e8cbdf8ccc82","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/minigallery","published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false},"13a94f09-2766-3c40-4a32-8edb5acdd8bc":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/product","widgetId":"13a94f09-2766-3c40-4a32-8edb5acdd8bc","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/product","appPage":{"id":"product_page","name":"Product Page","defaultPage":"","hidden":true,"multiInstanceEnabled":false,"order":2,"indexable":true,"fullPage":false,"landingPageInMobile":false,"hideFromMenu":false},"published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false},"1380bbc4-1485-9d44-4616-92e36b1ead6b":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/cartwidget","widgetId":"1380bbc4-1485-9d44-4616-92e36b1ead6b","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/cartwidget","published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false},"1380bbab-4da3-36b0-efb4-2e0599971d14":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/cart","widgetId":"1380bbab-4da3-36b0-efb4-2e0599971d14","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/cart","appPage":{"id":"shopping_cart","name":"Cart","defaultPage":"","hidden":true,"multiInstanceEnabled":false,"order":3,"indexable":false,"fullPage":false,"landingPageInMobile":false,"hideFromMenu":false},"published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false},"14666402-0bc7-b763-e875-e99840d131bd":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/add-to-cart","widgetId":"14666402-0bc7-b763-e875-e99840d131bd","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/add-to-cart","published":true,"mobilePublished":false,"seoEnabled":true,"preFetch":false},"1380bba0-253e-a800-a235-88821cf3f8a4":{"widgetUrl":"https:\/\/ecom.wix.com\/storefront\/gallery","widgetId":"1380bba0-253e-a800-a235-88821cf3f8a4","refreshOnWidthChange":true,"mobileUrl":"https:\/\/ecom.wix.com\/storefront\/gallery","appPage":{"id":"product_gallery","name":"Shop","defaultPage":"","hidden":false,"multiInstanceEnabled":true,"order":1,"indexable":true,"fullPage":false,"landingPageInMobile":false,"hideFromMenu":false},"published":true,"mobilePublished":true,"seoEnabled":true,"preFetch":false}},"appRequirements":{"requireSiteMembers":false},"isWixTPA":true,"installedAtDashboard":true,"permissions":{"revoked":false}}},"premiumFeatures":[],"geo":"","languageCode":"en","previewMode":false,"userId":"08dced1a-0613-491a-87ca-68923c15c316","siteMetaData":{"preloader":{"uri":"","enabled":false},"adaptiveMobileOn":true,"quickActions":{"socialLinks":[],"colorScheme":"dark","configuration":{"quickActionsMenuEnabled":false,"navigationMenuEnabled":true,"phoneEnabled":false,"emailEnabled":false,"addressEnabled":false,"socialLinksEnabled":false}},"contactInfo":{"companyName":"","phone":"","fax":"","email":"","address":""}},"runningExperiments":{"sv_blogRealPagination":"new","appMarketCache":"new","sv_textLinkWhiteList":"new","sv_platform1":"new","reactAppMarketModals":"new","sv_hoverBox":"new","sv_dpages":"new","clickToAction_email":"new","sv_smSocialLoginEnabledByDefault":"new","sv_ampLinkTag":"new","connectionsData":"new","sv_mergeAggregator":"new","sv_remove_headTagsSaveDataFixer":"new","sv_blogTranslateErrorMessage":"new","sv_listsBatchRequest":"new","sv_blogRelatedPosts":"new","noDynamicModelOnFirstLoad":"new","sv_expandModeBi":"new","sv_reportPerformance":"new","clickToAction_url":"new","sv_cssDesignData":"new","useBeaconForPerformanceEvent":"new","sv_blogCountersHttpsRequest":"new","viewPortImageLoadingBi":"3000","sv_webpJPGSupport":"new","sv_addFirstTimeRenderBiEvents":"new","reactAppMarket":"new","fontsTrackingInViewer":"new","tpaHideFromMenu":"new","sv_blogSocialCounters":"new","sv_addJsonldToHeadForSEO":"new","sv_remove_backgroundsSaveDataFixer":"new","clickToAction_phone":"new","sv_stripMigrationViewer":"new","viewPortImageLoading":"new","allowScriptTagTypeJsonOnSeoMetatag":"old","sv_fixColorOfHatulOnHover":"new","autosaveTpaSettle":"new","retryOnConcurrencyError":"new","permalinkWithoutDate":"new","ds_syncDeletedItemsFromServer":"new","sv_faviconFromServer":"new","sv_obMigrationFlow":"new","specs.users.NewLoginVelocityTemplateFT":"true","pageListNewFormat":"new","sv_blogAuthorAsALink":"new","se_ignoreBottomBottomAnchors":"new","ds_saveState":"new","packagescache":"new","fontScaling":"new","autosaveWixappsSettle":"new","sv_tpaMultiWidget":"new","operationsQAllAsync":"new","sv_sweepSorter":"new","hashPasswordOnServer":"new","remove_mobile_props_and_design_if_really_deleted":"new","sv_tpaAddChatApp":"new","sv_stripToColumnMigration":"new","sv_blogOldUrlShareFix":"new","sv_addBorderToElementBounds":"new","sv_blogNotifySocialCounters":"new","sv_blogLikeCounters":"new","sv_robotsIndexingMetaTag":"new","sv_blogNewSocialShareButtonsInTemplates":"new","sv_ignoreBottomBottomAnchors":"new","sv_addBlogPerformanceBiEvents":"new","sv_allowStripToColumnMigration":"new","sv_grid":"new","sv_NewFacebookConversionPixel":"new","sv_tpaPerformanceBi":"new","wixCodeBinding":"new","sv_alwaysEnableMobileZoom":"new","contactFormActivity":"old"},"urlFormatModel":{"format":"slash","forbiddenPageUriSEOs":["app","apps","_api","robots.txt","sitemap.xml","feed.xml","sites"],"pageIdToResolvedUriSEO":{}},"passwordProtectedPages":[],"useSandboxInHTMLComp":true,"siteMediaToken":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHA6MzQ2NjQ5MDcwMDI5NzIwNiIsInN1YiI6InVzZXI6MDhkY2VkMWEtMDYxMy00OTFhLTg3Y2EtNjg5MjNjMTVjMzE2IiwiYXVkIjoidXJuOnNlcnZpY2U6ZmlsZS51cGxvYWQiLCJleHAiOjE0OTM4MjE0NDksImlhdCI6MTQ5MzIxNjY0OSwianRpIjoibDVMQml6S2JuLUQ0Rk1JYTRISEZDUSJ9.WkdmW6T85vV1XjLAFtURT3WI9yxetcZLqvdtYfqWuis","pagesPlatformApplications":{}};
+    var publicModel = {"domain":"wixsite.com","externalBaseUrl":"https:\/\/vcspinnersbiz.wixsite.com\/vcspinners","unicodeExternalBaseUrl":"https:\/\/vcspinnersbiz.wixsite.com\/vcspinners","pageList":{"pages":[{"pageId":"pn4ep","title":"Shop","pageUriSEO":"shop","pageJsonFileName":"08dced_0ed7a024c8c4310a87bce6406c4075b2_11.json"},{"pageId":"huw8m","title":"Thank You Page","pageUriSEO":"thank-you-page","pageJsonFileName":"08dced_08320c8bcabf04b1ab49986a5eecd759_11.json"},{"pageId":"uurt5","title":"FAQ","pageUriSEO":"faq","pageJsonFileName":"08dced_1163dee200aef293d7a4f42e52aff82a_23.json"},{"pageId":"iww2m","title":"Home","pageUriSEO":"home","pageJsonFileName":"08dced_3953e27cd951a8313cd935a9425ba0e9_11.json"},{"pageId":"lsuub","title":"Product Page","pageUriSEO":"product-page","pageJsonFileName":"08dced_4d3b21f69c3094fd037f3a8d13b4aed0_11.json"},{"pageId":"nvz5w","title":"Cart","pageUriSEO":"cart","pageJsonFileName":"08dced_892cbd2654aca6ed4d620072dbd5ccae_11.json"}],"mainPageId":"iww2m","masterPageJsonFileName":"08dced_4445570a7f322fdecc751a5feab093b6_23.json","topology":[{"baseUrl":"https:\/\/static.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/staticorigin.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/fallback.wix.com\/","parts":"wix-html-editor-pages-webapp\/page\/{filename}"}]},"timeSincePublish":1096278,"favicon":"","deviceInfo":{"deviceType":"Desktop","browserType":"Chrome","browserVersion":54},"siteRevision":23,"sessionInfo":{"hs":-1019789696,"svSession":"af42574a9d2d9b7761dc4c3f08420548a99acd8058f9edbe85c3a438df1d7dd63e694aea572c80dcd06126dd21b818511e60994d53964e647acf431e4f798bcdc818d336da271b69319e90d79f2db3aa3e2daff37f4448981227cc5927f9d665","ctToken":"dlVycklYUm52VGlIOTlRcHZjcjhLZENkcHdITjRIVUo2dnZsVDdOOWNjMHx7InVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChYMTE7IENyT1MgeDg2XzY0IDg3NDMuODUuMCkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzU0LjAuMjg0MC4xMDEgU2FmYXJpLzUzNy4zNiIsInZhbGlkVGhyb3VnaCI6MTQ5MzgyMTQ0OTQ3N30","isAnonymous":false},"metaSiteFlags":[],"siteMembersProtectedPages":[],"indexable":true,"hasBlogAmp":false};
+
+    
+
+    var googleAnalytics = "UA-2117194-61"
+    ;
+
+    var googleRemarketing = "";
+    var facebookRemarketing = "";
+    var yandexMetrika = "";
+
+</script>
+
+
+
+            <meta name="fragment" content="!"/>
+    
+    <!-- DATA -->
+<script type="text/javascript">
+    var adData = {"topLabel":"<span class=\"smallMusa\">(Wix-Logo) </span>Create a <span class=\"smallLogo\">Wix</span> site!","topContent":"100s of templates<br />No coding needed<br /><span class=\"emphasis spacer\">Start now >></span>","footerLabel":"<div class=\"adFootBox\"><div class=\"siteBanner\" ><div class=\"siteBanner\"><div class=\"wrapper\"><div class=\"bigMusa\">(Wix Logo)</div><div class=\"txt shd\" style=\"color:#fff\">This site was created using </div> <div class=\"txt shd\"><a  href=\"http://www.wix.com?utm_campaign=vir_wixad_live&experiment_id=abtestbanner122400001\" style=\"color:#fff\"> WIX.com. </a></div> <div class=\"txt shd\" style=\"color:#fff\"> Create your own for FREE <span class=\"emphasis\"> >></span></div></div></div></div></div>","adUrl":"http://www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&experiment_id=abtestbanner122400001"};
+    var mobileAdData = {"footerLabel":"7c3dbd_67131d7bd570478689be752141d4e28a.jpg","adUrl":"http://www.wix.com?utm_campaign=vir_wixad_live&experiment_id=abtestbanner122400001"};
+    var usersDomain = "https://users.wix.com/wix-users";
+        </script>
+        </head>
+<body>
+        <div id="SITE_CONTAINER"></div>
+
+    
+    
+    
+<div comp="wysiwyg.viewer.components.WixAds" skin="wysiwyg.viewer.skins.wixadsskins.WixAdsWebSkin" id="wixFooter"></div>
+    
+    
+    
+    
+
+    </body>
 </html>
